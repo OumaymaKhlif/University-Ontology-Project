@@ -31,11 +31,11 @@ Cette ontologie offre une vue globale et structurée des entités éducatives et
 - SPARQL est un Langage de requête pour interroger les données RDF.
 
 🧭 **Namespaces utilisés**
-- xsd (XML Schema) définit les types de données XML : [http://www.w3.org/2001/XMLSchema#]
-- dc (Dublin Core)  est un ensemble de métadonnées standardisé pour décrire les ressources sur le web, y compris le titre, l'auteur, la date, etc : [http://purl.org/dc/elements/1.1/]
-- FOAF (Friend of a Friend) est un vocabulaire RDF utilisé pour décrire des personnes, leurs relations et leurs activités sur le web : [http://xmlns.com/foaf/0.1/]
-- SKOS (Simple Knowledge Organization System) est un modèle RDF pour représenter des vocabulaires contrôlés et des thésaurus, facilitant l'organisation des connaissances. : [http://www.w3.org/2004/02/skos/core#]
-- RDFS est un vocabulaire RDF utilisé pour définir des classes, des propriétés et des relations entre les ressources : [http://www.w3.org/2000/01/rdf-schema#]
+- **xsd (XML Schema)** définit les types de données XML : [http://www.w3.org/2001/XMLSchema#]
+- **dc (Dublin Core)**  est un ensemble de métadonnées standardisé pour décrire les ressources sur le web, y compris le titre, l'auteur, la date, etc : [http://purl.org/dc/elements/1.1/]
+- **FOAF (Friend of a Friend)** est un vocabulaire RDF utilisé pour décrire des personnes, leurs relations et leurs activités sur le web : [http://xmlns.com/foaf/0.1/]
+- **SKOS (Simple Knowledge Organization System)** est un modèle RDF pour représenter des vocabulaires contrôlés et des thésaurus, facilitant l'organisation des connaissances. : [http://www.w3.org/2004/02/skos/core#]
+- **RDFS** est un vocabulaire RDF utilisé pour définir des classes, des propriétés et des relations entre les ressources : [http://www.w3.org/2000/01/rdf-schema#]
 
 💻 **Installation et utilisation**
 ✅ Prérequis
