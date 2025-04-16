@@ -1,9 +1,11 @@
 🎓 **Projet Ontologie – Domaine de l'Éducation**
 
 📘 **Description du projet**
+
 L'éducation, en tant que secteur en constante évolution, génère une multitude d'informations concernant les étudiants, enseignants, départements et cours, informations essentielles au bon fonctionnement des institutions académiques. Avec l'augmentation des systèmes numériques et des plateformes éducatives, la gestion des données devient un véritable défi, car elles proviennent de sources diverses, telles que les inscriptions, les évaluations, les emplois du temps, etc. Cependant, ces données sont souvent dispersées, non structurées et difficiles à exploiter efficacement.
 L'objectif est de faciliter l'accès et la gestion des informations pour les différents acteurs du système éducatif (étudiants, enseignants, gestionnaires). 
 Ce projet consiste à créer une ontologie pour le domaine de l'éducation, en utilisant des technologies sémantiques comme RDF, RDFS, OWL et SPARQL. L'ontologie structure les données relatives aux individus (étudiants, enseignants), aux structures académiques (départements, modules de cours), aux événements académiques (évaluations, semestres), et à l'organisation spatiale (salles). 
+
 Le projet a été développé avec l'outil **Protégé**, en utilisant des namespaces standards pour garantir l'interopérabilité et la réutilisation des données.
 
 🎯 **Objectifs du projet**
