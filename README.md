@@ -45,7 +45,7 @@ Avant de pouvoir utiliser le projet, vous devez installer **Protégé**, un outi
 📂 Importation de l'ontologie dans Protégé
 1. Ouvrir Protégé.
 2. Aller dans File > Open.
-3. Télécharger le fichier .ttl, .rdf ou .owl depuis le dépôt GitHub.
+3. Télécharger le fichier .rdf depuis le dépôt GitHub.
 4. Charger le fichier.
 🎉 Visualisez la structure (classes, propriétés, graphes, inférences…).
 
