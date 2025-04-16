@@ -69,5 +69,7 @@ Pour cloner ce projet, suivez ces étapes :
    git clone https://github.com/OumaymaKhlif/University-Ontology-Project.git
    
 ✨ **Auteurs**
+
 Oumayma Khlif
+
 Saba Kallel
