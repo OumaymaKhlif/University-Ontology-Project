@@ -74,6 +74,8 @@ WHERE {
   FILTER(?superClass != owl:Thing)
 }
 ORDER BY ?superClass ?subClass
+
+
 # ---------------------------------------------------------
 # 4. détecter les instances "Etudiant" avec des valeurs d'attributs manquantes
 Cette requête identifie les instances qui manquent de valeurs pour des attributs considérés comme importants, en fonction de leur classe.
@@ -101,5 +103,22 @@ WHERE {
   FILTER NOT EXISTS { ?etudiant ?attributManquant ?quelqueValeur . }
 }
 ORDER BY ?etudiant ?attributManquant
+
+# ---------------------------------------------------------
+# 5. Afficher les étudiants, les notes reçues et leur valeur
+Cette requête permet d’afficher les étudiants qui ont reçu des notes, ainsi que la valeur de chaque note.
+Elle exploite la relation entre les étudiants et les notes via la propriété `reçoitNote`, puis extrait la valeur de la note.
+# ---------------------------------------------------------
+
+PREFIX univ: <http://www.example.org/universite#>
+
+SELECT ?etudiant ?note ?valeur
+WHERE {
+  ?etudiant a univ:Étudiant .
+  ?etudiant univ:reçoitNote ?note .
+  ?note a univ:Note .
+  ?note univ:note ?valeur .
+}
+ORDER BY ?etudiant
 
 # Fin du fichier
