@@ -63,6 +63,7 @@ Dans Protégé, vous pouvez :
 Tu peux le consulter pour explorer l’ontologie directement depuis Protégé.
 
 ⚙️**Règles SWRL et Raisonnement avec Pellet**
+
 Vous pouvez également définir des règles SWRL (Semantic Web Rule Language) pour enrichir votre ontologie avec des règles logiques. Ces règles permettent de déduire de nouvelles connaissances à partir des faits existants.
 Pour visualiser les résultats des règles SWRL et les types inférés, vous devez utiliser un raisonneur compatible, notamment Pellet.
 
