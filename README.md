@@ -24,11 +24,12 @@ Le projet a été développé avec l'outil **Protégé**, en utilisant des names
 Cette ontologie offre une vue globale et structurée des entités éducatives et leurs interactions.
 
 🛠️ **Technologies utilisées**
-- Protégé est un Outil de développement pour les ontologies.
-- RDF (Resource Description Framework) est un modèle de données pour la description des ressources et des relations entre elles.
-- RDFS (RDF Schema) est un vocabulaire pour définir les relations entre les ressources RDF.
-- OWL (Web Ontology Language) est un langage de modélisation sémantique qui permet de définir des ontologies et des relations complexes entre les concepts.
-- SPARQL est un Langage de requête pour interroger les données RDF.
+- **Protégé** est un Outil de développement pour les ontologies.
+- **RDF** (Resource Description Framework) est un modèle de données pour la description des ressources et des relations entre elles.
+- **RDFS** (RDF Schema) est un vocabulaire pour définir les relations entre les ressources RDF.
+- **OWL (Web Ontology Language)** est un langage de modélisation sémantique qui permet de définir des ontologies et des relations complexes entre les concepts.
+- **SPARQL** est un Langage de requête pour interroger les données RDF.
+- **SWRL (Semantic Web Rule Language)** est un langage qui permet d’exprimer des règles logiques sous forme d’implications afin d’inférer de nouvelles connaissances à partir des faits déjà présents dans l’ontologie.
 
 🧭 **Namespaces utilisés**
 - **xsd (XML Schema)** définit les types de données XML : [http://www.w3.org/2001/XMLSchema#]
@@ -60,6 +61,20 @@ Dans Protégé, vous pouvez :
 - Écrire et exécuter des requêtes SPARQL pour interroger les données.
 📄 Note : Un fichier nommé requêtes_sparql.txt contenant plusieurs exemples de requêtes SPARQL est déjà présent dans ce dépôt.
 Tu peux le consulter pour explorer l’ontologie directement depuis Protégé.
+
+⚙️**Règles SWRL et Raisonnement avec Pellet**
+Vous pouvez également définir des règles SWRL (Semantic Web Rule Language) pour enrichir votre ontologie avec des règles logiques. Ces règles permettent de déduire de nouvelles connaissances à partir des faits existants.
+Pour visualiser les résultats des règles SWRL et les types inférés, vous devez utiliser un raisonneur compatible, notamment Pellet.
+
+📌 Remarque : Les règles SWRL ne fonctionnent qu’avec le raisonneur Pellet.
+
+✅ Installation du plugin Pellet dans Protégé :
+   1. Ouvrez Protégé.
+   2. Allez dans File > Check for plugins.
+   3. Recherchez Pellet Reasoner dans la liste.
+   4. Cochez-le et cliquez sur Install.
+   5. Redémarrez Protégé.
+   6. Activez-le ensuite via le menu Reasoner > Pellet Reasoner, puis cliquez sur Start reasoner.
 
 📦 **Clonage du projet**
 Pour cloner ce projet, suivez ces étapes :
